@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Relatório - Salas</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        h1{
+            color: white;
+            text-align: center;
+        }
+        .container{
+            text-align: center;
+            background-color: rgb(243, 236, 174);
+            border: 2px solid red;
+        }
+        p{
+            color: rgb(194, 60, 60);
+        }
+        .imagem{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="cabeçalho">
+        <h1>Página de Cadastro de Salas</h1> 
+    </div>
+        <div class="container">
+            <div class="cadastro">
+                <p><b>Cadastro:</b></p>
+                <form>
+                <label for="ipCodigo"><b>Código da sala:</b></label>
+                <input id="ipCodigo" type="text" name="ipCodigo">
+                <label for="ipNome"><b>Nome da sala:</b></label>
+                <input id="ipNome" type="text" name="ipNome">
+                <br><br>
+                <label for="ipCapacidade"><b>Capacidade:</b></label>
+                <input id="ipCapacidade" type="text" name="ipCapacidade">
+                <label for="ipExibicao"><b>Tipo de Exibição:</b></label>
+                <select>
+                    <option value="imax">IMAX</option>
+                    <option value="xd">XD</option>
+                    <option value="macroxe">Macro XE</option>
+                    <option value="4dx">4DX</option>
+                    <option value="xplus">XPlus</option>
+                    <option value="reald">RealD</option>
+                    <option value="dbox">D-Box</option>
+                </select><br><br>
+                <label for="ipAcessivel"><b>Acessível:</b></label>
+                <input type="radio" id="ipSim" name="pref" value="sim">
+                <label for="ipSim">Sim</label>
+                <input type="radio" id="ipNao" name="pref" value="nao">
+                <label for="ipNao">Não</label> 
+                <br><br>
+                <input type="button" value="Cadastrar">
+            </div>
+            <br>
+        
+        </div>
+        <div class="imagem">
+            <img src="img/cadastro1.png">
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
